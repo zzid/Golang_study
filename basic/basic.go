@@ -16,7 +16,7 @@ func lenAndUpper(name string) (length int, uppercase string){
 	uppercase = strings.ToUpper(name)
 	return
 }
-
+/* for loop */
 func superAdd(numbers ...int) int {
 	total := 0
 	/* normal one */
@@ -54,6 +54,12 @@ func canIDrinkSwitch(age int) bool {
 	return false
 }
 
+/* Structs */
+type person struct {
+	name 	string
+	age 	int 
+	favFood	[]string
+}
 
 func main () {
 	// fmt.Println(lenAndUpper("zzid"))
@@ -73,5 +79,16 @@ func main () {
 	// names2 := append(names, "Nadia") // >> this will "return new Slice"
 	// fmt.Println(names)
 	// fmt.Println(names2)
-	
+
+	/* map */
+	// zzid := map[string]string{"name":"DongYun", "age":"28"}
+	// fmt.Println(zzid)
+	// for key, value := range zzid {
+	// 	fmt.Println(key, value)
+	// }
+
+	/* Structs */
+	favFood := []string{"ramyeon", "beer"}
+	zzid := person{name:"DongYun", age:28, favFood:favFood}
+	fmt.Println(zzid.favFood)
 }
