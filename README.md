@@ -1,4 +1,6 @@
 # Golang study
+[Basic]("./goscraper/basic/basic.go")
 
 ## Go wiki
-https://golang.org/doc/articles/wiki/#tmp_8
+> [Tutorial in golang.org](https://golang.org/doc/articles/wiki/#tmp_8)<br><br>
+> [gowiki]("./gowiki")
